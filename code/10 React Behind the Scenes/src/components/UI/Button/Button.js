@@ -18,4 +18,4 @@ const Button = (props) => {
 
 export default React.memo(Button);
 
-// props.onClick === props.previous.onClick (not work for objects even if they have the same content)
+// props.onClick === props.previous.onClick (not work for objects even if they have the same content are never equal in JavaScript)
