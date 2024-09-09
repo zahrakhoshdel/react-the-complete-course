@@ -8,7 +8,7 @@ let age: number;
 
 age = 30;
 
-let userName: string;
+let userName: string | string[];
 
 userName = "Zahra";
 
@@ -39,6 +39,6 @@ let people: {
 
 // Type inference
 
-let course = "React - The Complete Guide";
+let course: string | number = "React - The Complete Guide";
 
-// course = 12345; // error: Type 'number' is not assignable to type 'string'
+course = 12345;
